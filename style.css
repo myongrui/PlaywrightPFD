@@ -22,6 +22,12 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center; 
+    background-image: url(face.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 120%;
+    
 }
 
 a{
@@ -38,8 +44,7 @@ a:hover{
 .homepage {
     display: flex;
     flex-flow: column ;
-    width: 54%;
-    
+    width: 54%;   
     /* background-color: pink; */
 
 }
