@@ -17,6 +17,7 @@ li {
   /* background-color: lightblue; */
 }
 
+<<<<<<< HEAD
 body {
   display: flex;
   background-color: rgb(30, 30, 30);
@@ -28,6 +29,20 @@ body {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 120%;
+=======
+body{ 
+    display: flex;
+    background-color: rgb(30, 30, 30); 
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(face.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 120%;
+    
+>>>>>>> 3c9e7af615f9cfeed3b3f8c5addd07e4dab70d88
 }
 
 a {
@@ -42,10 +57,18 @@ a:hover {
 }
 
 .homepage {
+<<<<<<< HEAD
   display: flex;
   flex-flow: column;
   width: 54%;
   /* background-color: pink; */
+=======
+    display: flex;
+    flex-flow: column ;
+    width: 54%;   
+    /* background-color: pink; */
+
+>>>>>>> 3c9e7af615f9cfeed3b3f8c5addd07e4dab70d88
 }
 
 .homepage div {
