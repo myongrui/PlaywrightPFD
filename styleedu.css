@@ -1,4 +1,4 @@
-li {
+header li {
   font-size: 20px;
   white-space: nowrap;
   padding: 10px;
@@ -47,7 +47,7 @@ h1 {
   white-space: nowrap;
 }
 
-ul {
+header ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -79,12 +79,13 @@ ul {
   width: 40%;
 }
 .shortd {
-  font-size: 50px;
+  font-size: 45px;
   padding: 3%;
   padding-left: 40px;
   padding-top: 1;
   z-index: -2;
   width: 45% !important;
+  height: 50vh;
 }
 
 .top img {
@@ -188,7 +189,8 @@ h2 {
 
 .middle p {
   font-size: 50px;
-  width: 40%;
+  width: 50%;
+  padding-left: 40px;
   margin-bottom: 0;
   margin-top: 40px;
 }
@@ -203,6 +205,17 @@ h2 {
 .bottom video {
   height: 60%;
   padding: 3%;
+}
+
+.container ul {
+  padding-top: 70px;
+  list-style-type: none;
+}
+
+li i {
+  text-decoration: none;
+  font-size: 50px;
+  padding-top: 5px;
 }
 
 span {
