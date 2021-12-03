@@ -1,0 +1,102 @@
+ul {
+  display: flex;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 35%;
+  height: auto;
+  list-style-type: none;
+  /* background-color: pink;   */
+}
+
+li {
+  font-size: 120%;
+  white-space: nowrap;
+  /* background-color: lightblue; */
+}
+
+body {
+  display: flex;
+  background-color: rgb(30, 30, 30);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Assignment1/material/face.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 120%;
+}
+
+a {
+  text-decoration: none;
+  color: #007acc;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.homepage {
+  display: flex;
+  flex-flow: column;
+  width: 54%;
+  /* background-color: pink; */
+}
+
+.homepage div {
+  color: white;
+  /* background-color: lightblue; */
+  font-family: "Lora", serif;
+  font-size: 2.5vh;
+}
+
+#middle {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  /* background-color: ; */
+  font-size: 15.89vh;
+}
+#bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.thispage {
+  color: #cc5200;
+}
+
+@media (max-width: 1075px) {
+  ul {
+    width: 50%;
+  }
+}
+
+@media (min-width: 425px) {
+  body {
+    background-position-y: 110%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-size: 40%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-size: 28%;
+  }
+}
